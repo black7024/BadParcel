@@ -1,3 +1,7 @@
+fork自 
+https://github.com/pwnipc/BadParcel
+增加ui界面，自主填写包名和活动
+
 # BadParcel
 
 See [Bundle Fengshui](https://pwnipc.github.io/posts/bundle-fengshui-android-s-self-changing-bundle/) for a deep dive on this bug class.
