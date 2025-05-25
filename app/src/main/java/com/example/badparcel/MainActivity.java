@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
           
         // Validate input  
         if (packageName.isEmpty() || activityName.isEmpty()) {  
-            Toast.makeText(this, "Please enter both package name and activity name", Toast.LENGTH_SHORT).show();  
+            Toast.makeText(this, "请同时输入包名和活动名", Toast.LENGTH_SHORT).show();  
             return;  
         }  
           
@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
             // Launch the activity  
             startActivity(intent);  
         } catch (Exception e) {  
-            Toast.makeText(this, "Failed to launch activity: " + e.getMessage(), Toast.LENGTH_LONG).show();  
+            Toast.makeText(this, "启动活动失败: " + e.getMessage(), Toast.LENGTH_LONG).show();  
         }  
     }  
 }
