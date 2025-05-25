@@ -4,37 +4,7 @@
     android:layout_height="match_parent"    
     android:orientation="vertical"    
     android:padding="16dp">    
-  
-    <!-- CVE-2023-20963 漏洞说明标题 -->  
-    <TextView  
-        android:layout_width="match_parent"  
-        android:layout_height="wrap_content"  
-        android:text="CVE-2023-20963 漏洞利用工具"  
-        android:textSize="18sp"  
-        android:textStyle="bold"  
-        android:gravity="center"  
-        android:textColor="#D32F2F"  
-        android:layout_marginBottom="12dp" />  
-  
-    <!-- 漏洞详细说明 -->  
-    <TextView  
-        android:layout_width="match_parent"  
-        android:layout_height="wrap_content"  
-        android:text="该漏洞已在 Android 安全公告 2023 年 3 月的 Android 上进行修补。该漏洞应该适用于搭载 AOSP 版本 11、12、12L、13 且安全补丁级别低于2023年3月的设备上。"  
-        android:textSize="13sp"  
-        android:background="#FFF3E0"  
-        android:padding="8dp"  
-        android:layout_marginBottom="8dp" />  
-  
-    <!-- GitHub 链接 -->  
-    <TextView  
-        android:layout_width="match_parent"  
-        android:layout_height="wrap_content"  
-        android:text="GitHub链接: https://github.com/black7024/BadParcel"  
-        android:textSize="12sp"  
-        android:textColor="#1976D2"  
-        android:layout_marginBottom="16dp" />  
-  
+    
     <!-- 包名输入框 -->    
     <EditText    
         android:id="@+id/editTextPackageName"    
@@ -81,6 +51,42 @@
         android:text="启动 Activity"    
         android:layout_marginTop="16dp" />    
   
+    <!-- 分隔线 -->  
+    <View  
+        android:layout_width="match_parent"  
+        android:layout_height="1dp"  
+        android:background="#E0E0E0"  
+        android:layout_marginTop="24dp"  
+        android:layout_marginBottom="16dp" />  
+  
+    <!-- CVE-2023-20963 漏洞说明标题 -->  
+    <TextView  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="CVE-2023-20963 漏洞利用工具"  
+        android:textSize="18sp"  
+        android:textStyle="bold"  
+        android:gravity="center"    
+        android:layout_marginBottom="12dp" />  
+  
+    <!-- 漏洞详细说明 -->  
+    <TextView  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="该漏洞已在 Android 安全公告 2023 年 3 月的 Android 上进行修补。该漏洞应该适用于搭载 AOSP 版本 11、12、12L、13 且安全补丁级别低于 2023年3月的设备上。"  
+        android:textSize="13sp"  
+        android:background="#FFF3E0"  
+        android:padding="8dp"  
+        android:layout_marginBottom="8dp" />  
+  
+    <!-- GitHub 链接 -->  
+    <TextView  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="项目链接: https://github.com/black7024/BadParcel"  
+        android:textSize="12sp"    
+        android:layout_marginBottom="12dp" />  
+  
     <!-- 漏洞功能说明 -->  
     <TextView  
         android:layout_width="match_parent"  
@@ -88,7 +94,6 @@
         android:text="漏洞功能："  
         android:textSize="14sp"  
         android:textStyle="bold"  
-        android:layout_marginTop="20dp"  
         android:layout_marginBottom="8dp" />  
   
     <TextView  
@@ -98,7 +103,8 @@
         android:textSize="13sp"  
         android:lineSpacingExtra="2dp"  
         android:background="#FFEBEE"  
-        android:padding="8dp" />  
+        android:padding="8dp"  
+        android:layout_marginBottom="8dp" />  
   
     <!-- 警告信息 -->  
     <TextView  
@@ -106,11 +112,9 @@
         android:layout_height="wrap_content"  
         android:text="仅用于安全研究和教育目的"  
         android:textSize="12sp"  
-        android:textColor="#D32F2F"  
         android:textStyle="bold"  
         android:gravity="center"  
-        android:layout_marginTop="12dp"  
-        android:background="#FFCDD2"  
+        android:background="#FFEBEE"  
         android:padding="6dp" />  
     
 </LinearLayout>
