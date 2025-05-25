@@ -77,15 +77,7 @@
         android:textSize="13sp"  
         android:background="#FFF3E0"  
         android:padding="8dp"  
-        android:layout_marginBottom="8dp" />  
-  
-    <!-- GitHub 链接 -->  
-    <TextView  
-        android:layout_width="match_parent"  
-        android:layout_height="wrap_content"  
-        android:text="项目链接: https://github.com/black7024/BadParcel"  
-        android:textSize="12sp"    
-        android:layout_marginBottom="12dp" />  
+        android:layout_marginBottom="8dp" />    
   
     <!-- 漏洞功能说明 -->  
     <TextView  
@@ -101,20 +93,16 @@
         android:layout_height="wrap_content"  
         android:text="• 绕过Android应用间的安全边界，向特权应用（如系统设置）注入恶意Intent\n• 实现权限提升攻击，通过伪造账户认证器来获得额外的系统访问权限\n• 启动受保护的系统Activity，比如密码设置界面，而无需相应权限"  
         android:textSize="13sp"  
-        android:lineSpacingExtra="2dp"  
-        android:background="#FFEBEE"  
+        android:lineSpacingExtra="2dp"    
         android:padding="8dp"  
         android:layout_marginBottom="8dp" />  
   
-    <!-- 警告信息 -->  
+    <!-- GitHub 链接 -->  
     <TextView  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
-        android:text="仅用于安全研究和教育目的"  
-        android:textSize="12sp"  
-        android:textStyle="bold"  
-        android:gravity="center"  
-        android:background="#FFEBEE"  
-        android:padding="6dp" />  
+        android:text="•仅用于安全研究和教育目的\n•项目链接: https://github.com/black7024/BadParcel"  
+        android:textSize="12sp"    
+        android:layout_marginBottom="12dp" />  
     
 </LinearLayout>
