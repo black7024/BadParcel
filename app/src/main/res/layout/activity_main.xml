@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical"  
+    android:padding="16dp">  
+  
+    <EditText  
+        android:id="@+id/editTextPackageName"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:hint="Package Name (e.g., com.android.settings)"  
+        android:inputType="text" />  
+  
+    <EditText  
+        android:id="@+id/editTextActivityName"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:hint="Activity Name (e.g., com.android.settings.accounts.AddAccountSettings)"  
+        android:inputType="text"  
+        android:layout_marginTop="16dp" />  
+  
+    <Button  
+        android:id="@+id/buttonLaunchActivity"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="Launch Activity"  
+        android:layout_marginTop="16dp" />  
+  
+</LinearLayout>
