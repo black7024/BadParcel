@@ -5,26 +5,50 @@
     android:orientation="vertical"  
     android:padding="16dp">  
   
+    <!-- 包名输入框 -->  
     <EditText  
         android:id="@+id/editTextPackageName"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
-        android:hint="Package Name (e.g., com.android.settings)"  
-        android:inputType="text" />  
+        android:hint="应用包名"  
+        android:inputType="text"  
+        android:maxLines="1" />  
   
+    <!-- 包名示例说明 -->  
+    <TextView  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="示例：com.android.settings"  
+        android:textColor="#757575"  
+        android:textSize="12sp"  
+        android:layout_marginTop="4dp"  
+        android:layout_marginBottom="16dp" />  
+  
+    <!-- Activity名称输入框 -->  
     <EditText  
         android:id="@+id/editTextActivityName"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
-        android:hint="Activity Name (e.g., com.android.settings.accounts.AddAccountSettings)"  
+        android:hint="应用 Activity 名"  
         android:inputType="text"  
-        android:layout_marginTop="16dp" />  
+        android:maxLines="1" />  
   
+    <!-- Activity示例说明 -->  
+    <TextView  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="示例：com.android.settings.accounts.AddAccountSettings"  
+        android:textColor="#757575"  
+        android:textSize="12sp"  
+        android:layout_marginTop="4dp"  
+        android:layout_marginBottom="24dp" />  
+  
+    <!-- 启动按钮 -->  
     <Button  
         android:id="@+id/buttonLaunchActivity"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
-        android:text="Launch Activity"  
+        android:text="启动 Activity"  
         android:layout_marginTop="16dp" />  
   
 </LinearLayout>
