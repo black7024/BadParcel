@@ -8,7 +8,7 @@
         android:label="BadParcel"
         android:roundIcon="@android:mipmap/sym_def_app_icon"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.NoDisplay">
+        android:theme="@android:style/Theme.Material.Light">
 
         <service
             android:name=".AuthenticatorService"
